@@ -1,0 +1,28 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weight Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="p-4">
+
+<h1 class="text-xl mb-4">Weight Tracker</h1>
+
+<input id="weight" type="number" placeholder="Enter weight"
+  class="border p-2">
+
+<button onclick="addWeight()" 
+  class="bg-green-500 text-white p-2 ml-2">
+  Add
+</button>
+
+<canvas id="chart" width="300" height="200" class="mt-4 border"></canvas>
+
+<ul id="list" class="mt-4"></ul>
+
+<script src="app.js"></script>
+</body>
+</html>
+<script src="app.js"></script>
