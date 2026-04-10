@@ -52,3 +52,8 @@ canvas {
   padding: 10px;
   margin-top: 10px;
 }
+/* PART 7: TITLES */
+h1, h2 {
+  font-weight: bold;
+  color: #1e293b;
+}
