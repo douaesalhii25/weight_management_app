@@ -3,3 +3,12 @@ body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #eef2ff, #f8fafc);
 }
+/* PART 2: CARD */
+.card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
