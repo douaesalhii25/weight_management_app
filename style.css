@@ -45,3 +45,10 @@ li {
 li:hover {
   background: #e2e8f0;
 }
+/* PART 6: CANVAS */
+canvas {
+  border-radius: 12px;
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+}
