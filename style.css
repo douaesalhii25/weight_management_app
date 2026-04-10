@@ -12,3 +12,14 @@ body {
 .card:hover {
   transform: translateY(-5px);
 }
+/* PART 3: INPUTS */
+input {
+  border-radius: 8px;
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+}
